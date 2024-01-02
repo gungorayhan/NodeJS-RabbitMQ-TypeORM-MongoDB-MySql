@@ -1,0 +1,13 @@
+{
+    "type":"mongodb",
+    "host":"127.0.0.1:27017",
+    "database":"microservices_main",
+    "synchronize":true,
+    "logging":false,
+    "entities":[
+        "src/entity/*.js"
+    ],
+    "cli":{
+        "entitesDir":"src/entity"
+    }
+}
